@@ -1,3 +1,8 @@
+output "id" {
+  value       = module.vpc.id
+  description = "ID of this network"
+}
+
 output "name" {
   value       = module.vpc.name
   description = "Name of this network"

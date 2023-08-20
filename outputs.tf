@@ -1,3 +1,9 @@
+
+output "id" {
+  value       = hcloud_network.vpc.id
+  description = "ID of this network"
+}
+
 output "name" {
   value       = hcloud_network.vpc.name
   description = "Name of this network"

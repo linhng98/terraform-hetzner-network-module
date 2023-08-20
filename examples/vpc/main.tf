@@ -14,6 +14,11 @@ module "vpc" {
       network_zone = "eu-central"
       ip_range     = "10.0.0.0/20"
     },
+    {
+      type         = "cloud"
+      network_zone = "eu-central"
+      ip_range     = "10.0.16.0/20"
+    },
   ]
   routes = [
     {
